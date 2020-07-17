@@ -1,0 +1,22 @@
+
+ .incomming_comment {
+    width: 80%;
+    height: 50px;
+  }
+  .outgoing_comment {
+    width: 80%;
+    height: 50px;
+    margin-left: 20%;
+    background: skyblue;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+     margin-bottom: 10px;
+  }
+  .incomming_comment {
+    width: 80%;
+    height: 50px;
+    background: #e44c064a;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }

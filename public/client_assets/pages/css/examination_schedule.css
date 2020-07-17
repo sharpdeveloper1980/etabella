@@ -1,0 +1,30 @@
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+	border: 1px solid #b8b8ba;
+	background: #f6f6f6;
+	font-weight: normal;
+	color: #656565;
+}
+.custom_class {
+    height: 100px !important;
+}
+.sort_dd .action-button {
+	border: 2px solid #e54e09 !important;
+	width: auto;
+	height: 28px;
+	float: right;
+}
+img.file_iocn {
+    width: 19px;
+}
+a{
+	text-decoration:none;	
+}
+a:hover{
+	text-decoration:none;	
+}
+@media (max-width: 500px) and (min-width: 50px)  {
+	.dashboard_control > li {
+		font-size: 13px !important;
+		margin-right: 17px;
+	}
+}

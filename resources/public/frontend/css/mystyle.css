@@ -1,0 +1,223 @@
+* {box-sizing: border-box}
+body {
+    font-family: "Lato", sans-serif;
+    background: #f0f0f0 !important;
+}
+
+@media only screen and (max-width: 990px) 
+{
+  .button_icon 
+  {
+    height: 30px;
+  }
+  .custom_media 
+  {
+    margin-left: 0px !important;
+    margin-top: 12px;
+  }
+  .tabcontent 
+  {
+    margin-top: 185px !important;  
+  }
+}
+
+@media only screen and (max-width: 767px) 
+{
+  .button_icon 
+  {
+      height: 30px;
+  }
+  .custom_media
+  {
+      margin-top: 0px !important;
+      margin-left: 15px !important;
+  }
+  .filter_left 
+  {
+      text-align: center;
+  }
+  .filter_right 
+  {
+      text-align: center !important;
+      margin-top: 13px;
+  }
+  .col-md-6.user_name 
+  {
+      width: 100%;
+      text-align: center;
+  }
+  .col-md-6.job_title 
+  {
+      width: 100%;
+      text-align: center;
+      margin-top: 8px;
+      margin-bottom: 8px;
+  }
+  .button_icon
+  {
+      width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 410px) 
+{
+  .col-md-6 .custom_media 
+  {
+      margin-top: 15px !important;
+      margin-left: 0px !important;
+  }
+  .tabcontent_wrapper.tabcontent 
+  {
+      margin-top: 305px !important;
+  }
+  .btn-secondary
+  {
+      padding: 6px 7px !important;
+  }
+  .button_text 
+  {
+      font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+.page {
+    background: white;
+    margin-top: 20px;
+    padding-top: 3px;
+}
+.header_top {
+    text-align: center;
+}
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: #f36523;
+    color: white;
+    padding: 19px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    
+}
+.button_icon {
+    width: 45px;
+    float: left;
+    /*border: 1px solid black;*/
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #8c6150;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #8c6150;
+}
+.tab button .fa {
+    margin-right: 30px;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  /*border: 1px solid #ccc;*/
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  margin-top: 150px;
+}
+
+
+.logo img {
+    width: 250px;
+}
+.wrapper {
+    position: relative;
+}
+.header_top {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.row.header_bottom {
+    margin-bottom: 6px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.job_title {
+    text-align: right;
+}
+.filter_bar {
+    border-top: 2px solid #a6a6a6;
+    border-bottom: 2px solid #a6a6a6;
+    width: 70%;
+    position: absolute;
+    right: 0;
+    padding: 14px;
+    margin-top: 1px;
+}
+
+.btn.custom_button {
+    border: 1px solid #aaa;
+    padding: 3px 0px;
+    width: 114px;
+}
+.btn.focus, .btn:focus {
+    box-shadow: none !important;
+}
+.btn.custom_button:hover {
+    background: #eee;
+}
+.filter_right {
+    text-align: right;
+}
+.custom_media {
+    margin-left: 8px;
+}
+.btn-group {
+    margin: 0 auto !important;
+}
+.line {
+    background: #a6a6a6;
+    border: 1px solid #a6a6a6;
+    margin: -15px;
+    margin-top: 15px;
+    margin-bottom: 11px;
+}
+.btn-secondary {
+    color: #f36523 !important;
+    background-color: #fff !important;
+}
+.btn-secondary:hover {
+    background-color: #eee !important;
+}
+
+
+
+
+
+
+
+

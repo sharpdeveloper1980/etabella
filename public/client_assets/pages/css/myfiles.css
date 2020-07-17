@@ -1,0 +1,61 @@
+.nav.nav-pills .active > a {
+    background-color: #e14700 !important;
+    color: white;
+}
+.nav-pills>li>a {
+    color: #e14700;
+}
+.select2-selection{
+	height: 45px !important;
+    padding-top: 9px !important;
+}
+.select2-selection__arrow{
+	padding-top:43px !important;
+}
+@media (max-width: 500px) and (min-width: 50px) {
+	.search_sorting input {
+		margin: 15px 46px 15px 8px !important;
+	}
+	a.nodefile {
+		width: 10em !important;
+	}
+	
+}
+.rename{
+	display:none !important;
+}
+.move {
+	position: inherit;
+	right: 42px;
+	bottom: 28px;
+}
+.copy {
+	position: inherit;
+	right: 79px;
+	bottom: 28px;
+}
+.check_file_cls {
+    width: 50px;
+    margin-top: 6px !important;
+    float: right;
+}
+@media screen 
+and (min-device-width: 320px) 
+and (max-device-width: 740px) {
+   
+	.right_icon {
+		float: none;
+	}
+	.check_file_cls {
+		width: 50px;
+		margin-top: 6px !important;
+		float: none;
+	}
+	.card-body {
+		overflow-y: scroll;
+	}
+	.copy i {
+		margin-top: 2px;
+		font-size: 15px !important;
+	}
+}
